@@ -29,7 +29,6 @@ https://github.com/PySimpleGUI/PySimpleGUI/tree/master/PySimpleGUIWeb/Demo%20Pro
 
 There are not many programs under each of the port's folders because the main Demo Programs should run on all of the other platforms with minimal changes (often only the import statement changes).
 
-
 You will also find a lot of demos running on Trinket
 http://Trinket.PySimpleGUI.org
 
@@ -38,7 +37,7 @@ http://Trinket.PySimpleGUI.org
 ## Packages Used In Demos
 
 
-  While the core PySimpleGUI code  does not utilize any 3rd party packages, some of the demos do.  They add a GUI to a few popular packages.  These packages include:
+ While the core PySimpleGUI code  does not utilize any 3rd party packages, some of the demos do.  They add a GUI to a few popular packages.  These packages include:
   * [Chatterbot](https://github.com/gunthercox/ChatterBot)
   * [Mido](https://github.com/olemb/mido)
   * [Matplotlib](https://matplotlib.org/)
@@ -55,7 +54,7 @@ http://Trinket.PySimpleGUI.org
 
 It's possible to create a single .EXE file that can be distributed to Windows users. There is no requirement to install the Python interpreter on the PC you wish to run it on. Everything it needs is in the one EXE file, assuming you're running a somewhat up to date version of Windows.
 
-Installation of the packages, you'll need to install PySimpleGUI and PyInstaller (you need to install only once)
+On installation of the packages, you'll need to install PySimpleGUI and PyInstaller (you need to install only once)
 
 ```bash
 pip install PySimpleGUI
@@ -95,7 +94,7 @@ Run this command on your Mac
 
 > pyinstaller --onefile --add-binary='/System/Library/Frameworks/Tk.framework/Tk':'tk' --add-binary='/System/Library/Frameworks/Tcl.framework/Tcl':'tcl' your_program.py
 
-Another also mentioned it may be helpful to add the "windowed" option so that a console is not opened.  That should make the command:
+Another also mentioned that it may be helpful to add the "windowed" option so that a console is not opened.  That should make the command:
 
 > pyinstaller --onefile --add-binary='/System/Library/Frameworks/Tk.framework/Tk':'tk' --windowed --add-binary='/System/Library/Frameworks/Tcl.framework/Tcl':'tcl' your_program.py
 
@@ -162,7 +161,7 @@ TealMono
 ```
 
 
-The way this call actually works is that it calls `SetOptions` with a LOT of color settings.  Here is the actual call that's made.  As you can see lots of stuff is defined for you.
+The way this call actually works is that it calls `SetOptions` with a LOT of color settings.  Here is the actual call that's made.  As you can see lots of stuff are defined for you.
 
 
 
@@ -223,16 +222,16 @@ You'll quickly wonder how you ever coded without it.
 
 Well, there are a few quirks, and problems of course.  Check the [GitHub Issues database](https://github.com/PySimpleGUI/PySimpleGUI/issues) for a list of them.
 
-As previously mentioned **this is where you should post all problems and enhancements.**
+As previously mentioned, **this is where you should post all problems and enhancements.**
 
 Random crashes have been rare.  The code is stable and hasn't been "quirky" nor have there been many "emergency" releases.
 
 
 ## MACS & tkinter
 
-Macs and PySimpleGUI did not play well together up until Nov 2019 and the release of ttk buttons.  Prior to that buttons had to be white.  Now the Mac can use any color for buttons and they work great.  Images on buttons work as well.
+Macs and PySimpleGUI did not play well together up until Nov 2019 and the release of ttk buttons.  Prior to that, buttons had to be white.  Now the Mac can use any color for buttons and they work great.  Images on buttons work as well.
 
-The problems were the normal tk.Button was not working correctly on the Mac.  You couldn't set the button color.  If you tried it appeared as if the text was missing.
+The problems were that the normal tk.Button was not working correctly on the Mac.  You couldn't set the button color.  If you tried it appeared as if the text was missing.
 
 Users have recently reported the ability to install Python 3.7 from the Python.org website and not use the Homebrew version.  This resolved all of the button color problems. 
 
@@ -249,7 +248,7 @@ Consider this is a ***stern warning***
 
 Tkinter also wants to be the MAIN thread in your code.  So, if you have to run multiple threads, make sure the GUI is the main thread.
 
-Other than that, feel free to use threads with PySimpleGUI on all of the ports.  You'll find a good example for how to run "long running tasks" in your event loop by looking at the demo program: `Demo_Multithreaded_Long_Tasks.py`.  There are several examples of using threads with PySimpleGUI.
+Other than that, feel free to use threads with PySimpleGUI on all of the ports.  You'll find a good example on how to run "long running tasks" in your event loop by looking at the demo program: `Demo_Multithreaded_Long_Tasks.py`.  There are several examples of using threads with PySimpleGUI.
 
 Be sure and **delete** your windows after you close them if you are running with multiple threads.  There is a chance another thread's garbage collect will attempt to delete the window when not in the mainthread which will cause tkinter to crash.
 
@@ -281,7 +280,7 @@ The sequence looks like this in code:
     window = None
     gc.collect()
 ```
-    
+
 This will ensure that the tkinter widgets are all deleted in the context of the main-thread and another thread won't accidently run the Garbage Collect
 
 
@@ -296,11 +295,11 @@ This project does not accept user submitted code.
 
 #### Write Applications, Use PySimpleGUI, Write Tutorials, Teach Others
 
-These are a few of the ways you can directly contribute to PySimpleGUI.  Using the package to make cool stuff and helping others learn how to use it to make cool stuff and a big help to PySimpleGUI.   **Everyone** learns from seeing other people's implementations.  It's through user's creating applications that new problems and needs are discovered.  These have had a profound and positive impact on the project in the past.
+These are a few of the ways you can directly contribute to PySimpleGUI.  Using the package to make cool stuff and helping others learn how to use it to make cool stuff is a big help to PySimpleGUI.   **Everyone** learns from seeing other people's implementations.  It's through the user's creating applications that new problems and needs are discovered.  These have had a profound and positive impact on the project in the past.
 
 #### Pull Requests
 
-Pull requests are *not being accepted* for the project.  This includes sending code changes via other means than "pull requests".  Plainly put, core code you send will not be used.
+Pull requests are *not being accepted* for the project.  This includes sending code changes via other means than "pull requests".  Plainly put, core code that you send will not be used.
 
 
 #### Bug Fixes
@@ -315,4 +314,4 @@ It's understood that this way of development of a Python package is unorthodox. 
 
 ## GitHub Repos
 
-If you've created a GitHub for your project that uses PySimpleGUI then please post screenshots in in the "User's Screenshots" Issue on the PySimpleGUI GitHub.  Say a little something about it and I'll also add it to the announcements. People *love* success stories and showing your GUI's screen visually communicates your success. 
+If you've created a GitHub for your project that uses PySimpleGUI then please post screenshots in the "User's Screenshots" Issue on the PySimpleGUI GitHub.  Say something little about it and I'll also add it to the announcements. People *love* success stories and showing your GUI's screen visually communicates your success. 
