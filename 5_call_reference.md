@@ -2520,7 +2520,7 @@ The following methods are here for backwards compatibility reference.  You will 
 
 ## Function Reference
 
-These are the functions available for you to call
+These are the functions available for you to call.
 
 ## Multi-window Interface
 
