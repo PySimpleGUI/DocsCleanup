@@ -12,7 +12,7 @@ Work is underway to get the PySimpleGUIQt docstrings completed and corrected.
 
 ## Caution - Some functions / methods may be internal only yet exposed in this documentation
 
-This section of the documentation is generated directly from the source code.  As a result, sometimes internal only functions or methods that you are not supposed to be calling are accidently shown in this documentation.  Hopefully these accidents don't happen often.
+This section of the documentation is generated directly from the source code.  As a result,  sometimes only internal functions or methods that you are not supposed to be  calling are accidently shown in this documentation.  Hopefully these accidents don't happen often.
 
 Here are all of the Elements, the Window & SystemTray classes, and all functions
 
