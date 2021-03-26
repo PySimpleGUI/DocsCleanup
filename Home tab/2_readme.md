@@ -2273,7 +2273,7 @@ A `True` value for `auto_size_text`, when placed on Text Elements, indicates tha
 `Text(size=(15,1), key='-TXTOUT-)` creates a `Text` Element that can hold 15 characters.
 
 
-### Chortcut functions
+### Shortcut functions
 The shorthand functions for `Text` are `Txt` and `T`
 
 ### Events `enable_events`
