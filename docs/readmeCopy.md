@@ -14,12 +14,12 @@ Some programs are not well-suited for PySimpleGUI however.  By definition, PySim
 
 <a href="https://www.buymeacoffee.com/PySimpleGUI" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" width="217px" ></a>
 
-I could use a coffee!  It fuels consultants, editors, domain registration and so many other things required for PySimpleGUI to be a thriving project.
+I could use a coffee!  It fuels consultants, editors, domain registration and so many other things required for PySimpleGUI to be a thriving project.  Every donation helps, and help is needed and appreciated.
 
 
 <hr>
 
-# Statistics :chart_with_upwards_trend:
+# Statistics  📈
 
 # PyPI Statistics & Versions
 
@@ -44,6 +44,7 @@ I could use a coffee!  It fuels consultants, editors, domain registration and so
 
 
 
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/?username=PySimpleGUI&bg_color=3e7bac&title_color=ffdd55&icon_color=ffdd55&text_color=ffdd55&show_icons=true&count_private=true">
 </p>
@@ -52,7 +53,7 @@ I could use a coffee!  It fuels consultants, editors, domain registration and so
 
 <hr>
 
-# What Is PySimpleGUI :question:
+# What Is PySimpleGUI ❓
 
 PySimpleGUI is a Python package that enables Python programmers of all levels to create GUIs.  You specify your GUI window using a "layout" which contains widgets (they're called "Elements" in PySimpleGUI).  Your layout is used to create a window using one of the 4 supported frameworks to display and interact with your window.  Supported frameworks include tkinter, Qt, WxPython, or Remi. The term "wrapper" is sometimes used for these kinds of packages.
 
@@ -74,14 +75,14 @@ Adding a GUI to a program opens that program up to a wider audience. It becomes 
 
 <hr>
 
-# About Me :wave:
+# About Me 👋
 
 Hi there!  I'm Mike.  You'll find me right here, on the PySimpleGUI GitHub, solving problems and continuously pushing PySimpleGUI forward.  I've dedicated my days, nights, and weekends to the project and PySimpleGUI users.  Our successes are ultimately shared.  I'm successful when you're successful.  
 
 While I'm a relative newcomer to Python, I've been writing software since the 70s.  The majority of my career was spent creating products in Silicon Valley. I bring to PySimpleGUI the same professionalism and dedication as I did to the corporate products I developed. You are my customers now.
 
 
-## Project Goals :goal_net:
+## Project Goals 🥅
 
 Two of the most important goals of the PySimpleGUI project:
 
@@ -96,7 +97,7 @@ There is a significant amount of documentation, a cookbook, 100's of demo progra
 
 <hr>
 
-# Educational Resources :books:
+# Educational Resources 📚
 
 www.PySimpleGUI.org is easy to remember and is where the documentation is located. You'll find tabs across the top that represent several different documents. The documentation is located on "Read The Docs" so that there is a table of contents for each document and they are easy to search.
 
@@ -241,7 +242,7 @@ As you can see several things can be changed for a `Text` element.  The call ref
 
 <hr>
 
-## Layouts Are Funny LOL! :laughing:
+## Layouts Are Funny LOL! 😆
 
 Your window's layout is a "list of lists" (LOL).  Windows are broken down into "rows".  Each row in your window becomes a list in your layout.  Concatenate together all of the lists and you've got a layout...a list of lists.
 
@@ -355,7 +356,7 @@ These packages and more are ready for you to put into your GUI as there are demo
 
 <hr>
 
-# Installing :floppy_disk:
+# Installing  💾
 
 Two common ways of installing PySimpleGUI:
 
@@ -404,7 +405,7 @@ Now some of you are thinking, "yea, but, wait, having a single huge source file 
 
 
 
-## Galleries :art:
+## Galleries 🎨
 
 Work on a more formal gallery of user-submitted GUIs as well as those found on GitHub is underway but as of this writing it's not complete.  There are currently 2 places you can go to see some screenshots in a centralized way.  Hopefully, a Wiki or other mechanism can be released soon to do justice to the awesome creations people are making.
 
@@ -418,7 +419,7 @@ The second is a [massive gallery of over 3,000 images](https://www.dropbox.com/s
 
 <hr>
 
-# Uses for PySimpleGUI :hammer:
+# Uses for PySimpleGUI 🔨
 
 The following sections showcase a fraction of the uses for PySimpleGUI.  There are over 1,000 projects on GitHub alone that use PySimpleGUI.  It's truly amazing how possibilities have opened up for so many people.  Many users have spoken about previously attempting to create a GUI in Python and failing, but finally achieving their dreams when they tried PySimpleGUI.
 
@@ -667,7 +668,7 @@ The theme changed colors of the background, text, input background, input text, 
 
 <hr>
 
-# Support :muscle:
+# Support 💪
 
 Your first stop should be the [documentation](http://www.PySimpleGUI.org) and [demo programs](http://Demos.PySimpleGUI.org).  If you still have a question or need help...  no problem... help is available to you, at no cost. Simply [file an Issue](http://Issues.PySimpleGUI.org) on the PySimpleGUI GitHub repo and you'll get help.  
 
@@ -682,7 +683,7 @@ In addition to requesting information such as the version numbers of PySimpleGUI
 
 Financial support for the project is greatly appreciated.  To be honest, financial help is needed.  It's expensive just keeping the lights on.  The domain name registrations, a long list of subscriptions for things like Trinket, consulting help, etc., quickly add up to a sizable recurring cost.  
 
-PySimpleGUI wasn't inexpensive to create. While a labor of love, it was very laborious. It's required over 2 years of working 7-days a week to get the software and documentation to the level you see today.
+PySimpleGUI wasn't inexpensive to create. While a labor of love, it was very laborious over several years, and quite a bit was invested, and continues to be invested, in creating what you see today.
 
 PySimpleGUI has an open-source license and it would be great if it could remain that way.  If you or your company (especially if you're using PySimpleGUI in a company) are benefiting financially by using PySimpleGUI, you have the capability of extending the life of the project for you and other users.
 
@@ -705,38 +706,28 @@ The [GitHub recurring sponsorship](https://github.com/sponsors/PySimpleGUI) is h
 Your help in financially contributing to the project would be greatly appreciated. Being an Open Source developer is financially challenging.  YouTube video creators are able to make a living creating videos.  It's not so easy yet for Open Source developers.
 
 
-# Funding - Your help is needed
+# Thank you for the Thank You's
 
-A frank discussion is needed here.  Subtle hasn't worked.
+To everyone that's helped, in whatever fashion, I'm very very grateful.
 
-The financial part of Open Source development is not openly discussed often.  As an Open Source developer, there is no automatic form of incoming happening, especially with Python where the source code essentially has to be provided.  Creating and administrating a Commercial License is expensive.  It's a big hurdle to take a project from an Open Source License to a Commercial License.  The attorneys I've spoken with haven't heard of it happening successfully.  So, licensing is not a practical option.
-
-It's expensive to operate an active Open Source project.  The labor involved is massive.  How does it get paid for?  Well, it comes from the developer's how.  Just like YouTube creators have expenses for camera equipment and time making their content and need supporters in order to operate, so do Open Source developers.
-
-PySimpleGUI needs your help.  Without some kind of funding, this project will end, likely sooner than later.  The individuals with the most ability to make a financial contribution are Corporate Users.  It's not tremendously difficult nor does it pose a financial hardship on someone working for a company to make a donation to PySimpleGUI.  You're spending someone else's money.  If you get a paycheck from a corporation and you're using PySimpleGUI, you're a "corporate user".  It doesn't matter if PySimpleGUI is shipping in a product you sell.  Your company is benefitting by running PySimpleGUI.  If it wasn't, you wouldn't be using it.  The person at your company that can help the PySimpleGUI effort is you, the user.  Your CFO isn't going to automatically make a payment.  Your legal team isn't on the lookout for Open Source projects to help.  I've not struck licensing deals with your company, or any company.  It's you, the end user that is the person at your company that will need to take action and has the ability to help the project continue.
-
-This PySimpleGUI software isn't the output from an AI bot.  Nor is the support for users that are using it.  There's a software developer (with a help from some very kind, friendly, generous people) that's doing all this work.  I do it because I love creating and enabling people to do cool things. But that love doesn't pay bills.  The energy put into the project doesn't create electricity.  I make stuff, electricity isn't one of them.
-
-Patreon works well for YouTubers.  It typically fails miserably for developers.  But there are multiple mechanisms available including PayPal, GitHub sponsorship, and BuyMeACoffee.  They all work pretty well and take 2 minutes, if that. One thing it requires is action on the part of the PySimpleGUI user.  If you can't afford to help, it's OK.  Use the software for free.  Make cool stuff.  Make the world a better, easier to use place.  If you can afford to help, please consider donating to the project.  It's for a good cause. 
-
-To everyone that's helped, in whatever fashion, I'm very very grateful. And thanks to everyone that takes a moment to say "thank you", it's a small price to pay and adds to the project's momentum.
+Even taking a moment to say "thank you" helps, and a HUGE number of you have done that.  It's been an amazing number actually.  I value these thanks and find inspiration in the words alone.  Every message is a little push forward.  It adds a little bit of energy and keeps the whole project's momentum.  I'm so very grateful to everyone that's helped in whatever form it's been.
 
 
 
-# Contributing  :construction_worker:
+# Contributing  👷
 
 While PySimpleGUI is currently licensed under an open-source license, the project itself is structured like a proprietary product.  Pull Requests are not accepted.
 
-One of the best ways for you to contribute code is to write and publish applications.  Users are inspired by seeing what other users build.  Create a GitHub repo form, post the code, and include a screenshot in your repo's readme file.  
+One of the best ways for you to contribute code is to write and publish applications.  Users are inspired by seeing what other users build.  Here's a simple set of steps you can take - Create a GitHub repo, post the code, and include a screenshot in your repo's readme file.  Then come back to the PySimpleGUI repo and post a screenshot in Issue #10 or in the project's WIKI.
 
 If there is a feature missing that you need or you have an enhancement to suggest, then [open an Issue](https://github.com/PySimpleGUI/PySimpleGUI/issues/new?assignees=&labels=&template=issue-form---must-fill-in-this-form-with-every-new-issue-submitted.md&title=%5B+Enhancement%2FBug%2FQuestion%5D+My+problem+is...)
 
 
-# Special Thanks :pray:
+# Special Thanks 🙏
 
-This version of the PySimpleGUI readme wouldn't have come together without the help from [@M4cs](https://github.com/M4cs). He's a fantastic developer and has been a PySimpleGUI supporter since the project's launch.   [@israel-dryer](https://github.com/israel-dryer) is another long-term supporter and has written several PySimpleGUI programs that pushed the envelope of the package's capabilities.  The unique minesweeper that uses an image for the board was created by Israel.  [@jason990420](https://github.com/jason990420) surprised many when he published the first card game using PySimpleGUI that you see pictured above as well as the first minesweeper game made with PySimpleGUI.  The Japanese version of the readme was greatly improved with help from  [@okajun35](https://github.com/okajun35).
+This version of the PySimpleGUI readme wouldn't have come together without the help from [@M4cs](https://github.com/M4cs). He's a fantastic developer and has been a PySimpleGUI supporter since the project's launch.   [@israel-dryer](https://github.com/israel-dryer) is another long-term supporter and has written several PySimpleGUI programs that pushed the envelope of the package's capabilities.  The unique minesweeper that uses an image for the board was created by Israel.  [@jason990420](https://github.com/jason990420) surprised many when he published the first card game using PySimpleGUI that you see pictured above as well as the first minesweeper game made with PySimpleGUI.  The Japanese version of the readme was greatly improved with help from  [@okajun35](https://github.com/okajun35). [@nngogol](https://github.com/nngogol) has had a very large impact on the project, also getting involved with PySimpleGUI in the first year of initial release.  He wrote a designer, came up with the familiar window[key] lookup syntax, wrote the tools that create the documentation, designed the first set of doc strings as well as tools that generate the online documenation using the PySimpleGUI code itself.  PySimpleGUI would not be where it is today were it not for the help of these individuals.
 
-The more than 1,200 GitHub repos that use PySimpleGUI are owed a "Thank You" as well, for it is *you* that has been the inspiration that fuels this project's engine.  
+The more than 2,200 GitHub repos that use PySimpleGUI are owed a "Thank You" as well, for it is *you* that has been the inspiration that fuels this project's engine.  
 
 The overseas users that post on Twitter overnight are the spark that starts the day's work on PySimpleGUI. They've been a source of positive energy that gets the development engine started and ready to run every day. As a token of appreciation, this readme file has been translated into [Japanese](https://github.com/PySimpleGUI/PySimpleGUI/blob/master/readme.ja.md).
 
